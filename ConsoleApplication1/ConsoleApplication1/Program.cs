@@ -11,6 +11,12 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             Console.WriteLine("Hello Gena!");
+
+            foreach (var argument in args)
+            {
+                Console.WriteLine("Argument " + argument);
+            }
+            
             Console.ReadKey();
         }
     }
