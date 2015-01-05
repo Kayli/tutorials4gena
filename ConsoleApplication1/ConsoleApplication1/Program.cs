@@ -12,9 +12,9 @@ namespace ConsoleApplication1
         {
             Console.WriteLine("Hello Gena!");
 
-            foreach (var argument in args)
+            foreach (var a777 in args)
             {
-                Console.WriteLine("Argument " + argument);
+                Console.WriteLine("Gena " + a777);
             }
             
             Console.ReadKey();
